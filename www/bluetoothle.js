@@ -1,4 +1,5 @@
 "use strict";
+var atob = require('atob');
 var bluetoothleName = "BluetoothLePlugin";
 var bluetoothle = {
   _newReorderer: function(successCallback) {
